@@ -1,0 +1,19 @@
+h3{
+    font-size: 25px;
+}
+.btn-success:hover{
+    background-color: crimson;
+}
+canvas{
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorchange{
+    from {
+        box-shadow: 1px 1px 35px red;
+    }
+    to {
+        box-shadow: 1px 1px 35px green;
+    }
+}
